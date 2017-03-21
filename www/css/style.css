@@ -1,0 +1,68 @@
+/* Empty. Add your own CSS if you like */
+.sf {
+	font-size: 12px !important;
+}
+.text-justify {
+	text-align: justify;
+}
+.loader {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0px;
+	background-color: #000;
+	position: fixed;
+	z-index: 999;
+	opacity: 0.8;
+	color:#fff;
+	text-align: center;
+}
+.loaderin {
+	color:#fff; 
+	/*background-color: #f60;*/
+	width: 50px;
+	height: 74px;
+	position: absolute;
+	margin-top: -74px;
+	margin-left: -25px;
+	z-index: 9999999;
+	top:50%;
+	left:50%;
+	font-size: 10px;
+}
+.loaderin >i {
+	font-size:50px;
+}
+.connect {
+	position: fixed;
+	width:300px;
+	left: 50%;
+	bottom: 30px;
+	margin-left: -150px;
+	z-index: 9999999;
+
+}
+.connect > div {
+	background-color: #ef4e3a !important;
+	color: #FFF;
+	text-align: center;
+}
+.connect > div >i {
+	font-size: 50px;
+}
+audio {
+	display: block;
+	margin:auto;
+}
+a:link {
+	color: #444 !important;
+}
+a:visited {
+	color: #444 !important;
+}
+a:hover {
+	color: #4a87ee !important;
+}
+a:active {
+	color: #444 !important;
+}
